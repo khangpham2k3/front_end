@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopDuck</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/Font-Awesome-640/css/all.css">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<style>
+    /*------------------------ Home Page ---------------------------*/
+    
+    .services-info h3 {
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 2px;
+    }
+    
+    .services-item {
+        transition-duration: .8s;
+    }
+    
+    .services-item:hover {
+        box-shadow: 1px 4px 5px #b1b1b1;
+    }
+</style>
+
+<body>
+    <!-- icon fixed -->
+    <div class="contact-position text-light">
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 50px; right: 20px;">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="position-absolute translate-middle p-2 bg-danger rounded-circle">
+      </span>
+        </div>
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 130px; right: 20px;">
+            <a href="https://zalo.me/0353605901"><i class="fa-sharp fa-solid fa-phone-volume fa-shake text-light"></i></a>
+        </div>
+        <div class="master-wrapper-page container-fluid p-0">
+        </div>
+    </div>
+    <!-- endIconfixed -->
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler icon-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="logo d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img width="249" height="26" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" data-src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" alt="Sudes Phone" class="lazyload loaded" data-was-processed="true">
+                    </a>
+                    <p class="navbar-toggler border-0 ps-2 icon-cart">
+                        <i class="fa-solid fa-cart-shopping fa-lg mt-4" style="color: #ffffff;"></i>
+                        <span class="cart-count-mobile">12</span>
+                    </p>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item ms-5">
+                            <div class="d-flex mt-1">
+                                <input class="form-control text-secondary text-opacity-50 input-search" type="search" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-5 shadow bg-body bg-secondary bg-opacity-25 rounded-1" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-light fa-location-dot fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Hệ thống cửa hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2 fs-navbar-2">7 cửa hàng</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-solid fa-phone-volume fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Gọi mua hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2">1900 6750</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <div class="float-start pb-5 px-1" style="width: 110px;">
+                                <i class="float-start fa-regular fa-user fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Thông tin</span><br/>
+                                <div class="dropdown" style="margin-left: 36px;">
+                                    <span class="dropdown-toggle text-white fs-navbar-2" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </span>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-2 list-group-item d-flex justify-content-between align-items-start" style="height: 50px;">
+                            <div class="ms-2 me-auto">
+                                <i class="fa-solid fa-cart-shopping fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="cart-count">12</span>
+                                <span class="text-white ps-2 fs-navbar-2">Giỏ hàng</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="m-0 text-white hr-line">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-mobile">
+            <!-- navbar show web  -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-collapse navbar-nav mb-2 mb-lg-0 justify-content-center">
+                        <li class="navbar-toggler nav-item border-0">
+                            <div class="d-flex mt-1 input-search-mobile">
+                                <input class="form-control text-secondary text-opacity-50" type="text" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="navbar-toggler nav-item mxc border-0">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle text-white fs-6" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tài khoản
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">iPhone</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                iPad
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Air</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad 10.9</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad mini</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Macbook - iMac
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Air</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Apple watch
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch Utra</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S7</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S6</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch SE</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S8</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Airpods</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Phụ kiện
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Phụ kiện Aplle</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Cốc - Cáp Sạc</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Bao Da - Ốp Lưng</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dán Cường Lực</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Sạc Dự Phòng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Chính sách</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- navbar show web  -->
+        </nav>
+    </header>
+    <!-- Endheader -->
+    <!-- Main content -->
+    <main>
+        <div class="wrapper-home-page">
+            <div class="slideshow-home-page pb-4">
+                <div class="container-fluid p-0">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="public/images/uploaded/banner/slider/m1pc.png" class="d-block w-100 object-fit-cover img-fluid" height="400px" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="public/images/uploaded/banner/slider/PCkv.png" class="d-block w-100 object-fit-cover img-fluid" height="400px" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="public/images/uploaded/banner/slider/2.jpg" class="d-block w-100 object-fit-cover img-fluid" height="400px" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="content-home-page">
+                <div class="scroll_animation section_services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-0">
+                                        <div class="services-item row rounded-4 mx-1 py-2 text-center" style="background: #EBF2FC;">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12 services-icon">
+                                                <img width="50" height="50" alt="Vận chuyển miễn phí" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_1.svg?1712897547805">
+                                            </div>
+                                            <div class="col-lg-9 col-md-12 col-sm-12 col-12 ps-0 services-info">
+                                                <h3>Vận chuyển miễn phí</h3>
+                                                <span class="p-0">Hóa đơn trên 5 triệu</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-3">
+                                <div class="card border-0">
+                                    <div class="card-body p-0">
+                                        <div class="services-item row rounded-4 mx-1 py-2 text-center" style="background: #FAE9EF;">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12 services-icon">
+                                                <img width="50" height="50" alt="Quà tặng hấp dẫn" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_2.svg?1712897547805">
+                                            </div>
+                                            <div class="col-lg-9 col-md-12 col-sm-12 col-12 ps-0 services-info">
+                                                <h3>Quà tặng hấp dẫn</h3>
+                                                <span class="p-0">Hóa đơn trên 10 triệu</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-3">
+                                <div class="card border-0">
+                                    <div class="card-body p-0">
+                                        <div class="services-item row rounded-4 mx-1 py-2 text-center" style="background: #FFFBDB;">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12 services-icon">
+                                                <img width="50" height="50" alt="Quà tặng hấp dẫn" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_3.svg?1712897547805">
+                                            </div>
+                                            <div class="col-lg-9 col-md-12 col-sm-12 col-12 ps-0 services-info">
+                                                <h3>Chứng nhận chất lượng</h3>
+                                                <span class="p-0">Sản phẩm chính hãng</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-3">
+                                <div class="card border-0">
+                                    <div class="card-body p-0">
+                                        <div class="services-item row rounded-4 mx-1 py-2 text-center" style="background: #E9FFE3;">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-12 services-icon">
+                                                <img width="50" height="50" alt="Quà tặng hấp dẫn" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/ser_4.svg?1712897547805">
+                                            </div>
+                                            <div class="col-lg-9 col-md-12 col-sm-12 col-12 ps-0 services-info">
+                                                <h3>Hotline: <a href="#">1900 6767</a></h3>
+                                                <span class="p-0">Hỗ trợ 24/7</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-categories-hot pt-5">
+                    <div class="container">
+                        <div class="scroll_animation section_title text-center mb-3">
+                            <h4 class="text-uppercase">Danh mục nổi bật</h3>
+                        </div>
+                        <div class="scroll_animation row">
+                            <div class="category_hot_item col-lg-2 col-md-2 col-sm-4 col-4 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body">
+                                        <a href="/collections/all" title="iPhone" class="cate-item list-group-item">
+                                            <div class="box-cate text-center">
+                                                <div class="cate-image ratio ratio-1x1">
+                                                    <img alt="iphone" width="90px" height="90px" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/cate_1.png?1712897547805">
+                                                </div>
+                                                <h6 class="cate-name mt-2">
+                                                    iPhone
+                                                </h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category_hot_item col-lg-2 col-md-2 col-sm-4 col-4 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body">
+                                        <a href="/collections/all" title="iPhone" class="cate-item list-group-item">
+                                            <div class="box-cate text-center">
+                                                <div class="cate-image ratio ratio-1x1 ">
+                                                    <img alt="iphone" width="90px" height="90px" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/cate_2.png?1712897547805">
+                                                </div>
+                                                <h6 class="cate-name mt-2">
+                                                    Mac
+                                                </h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category_hot_item col-lg-2 col-md-2 col-sm-4 col-4 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body">
+                                        <a href="/collections/all" title="iPhone" class="cate-item list-group-item">
+                                            <div class="box-cate text-center">
+                                                <div class="cate-image ratio ratio-1x1 ">
+                                                    <img alt="iphone" width="90px" height="90px" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/cate_3.png?1712897547805">
+                                                </div>
+                                                <h6 class="cate-name mt-2">
+                                                    iPad
+                                                </h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category_hot_item col-lg-2 col-md-2 col-sm-4 col-4 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body">
+                                        <a href="/collections/all" title="iPhone" class="cate-item list-group-item">
+                                            <div class="box-cate text-center">
+                                                <div class="cate-image ratio ratio-1x1">
+                                                    <img alt="iphone" width="90px" height="90px" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/cate_6.png?1712897547805">
+                                                </div>
+                                                <h6 class="cate-name mt-2">
+                                                    Watch
+                                                </h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category_hot_item col-lg-2 col-md-2 col-sm-4 col-4 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body">
+                                        <a href="/collections/all" title="iPhone" class="cate-item list-group-item">
+                                            <div class="box-cate text-center">
+                                                <div class="cate-image ratio ratio-1x1 ">
+                                                    <img alt="iphone" width="90px" height="90px" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/cate_4.png?1712897547805">
+                                                </div>
+                                                <h6 class="cate-name mt-2">
+                                                    Âm thanh
+                                                </h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category_hot_item col-lg-2 col-md-2 col-sm-4 col-4 mb-3">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body">
+                                        <a href="/collections/all" title="iPhone" class="cate-item list-group-item">
+                                            <div class="box-cate text-center">
+                                                <div class="cate-image ratio ratio-1x1 ">
+                                                    <img alt="iphone" width="90px" height="90px" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/cate_5.png?1712897547805">
+                                                </div>
+                                                <h6 class="cate-name mt-2">
+                                                    Phụ kiện
+                                                </h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-catalog-product">
+                    <div class="catalog-product-list container">
+                        <div class="scroll_animation section_title text-center mb-3 pt-5">
+                            <h4 class="text-uppercase">IPhone</h>
+                        </div>
+                        <div class="scroll_animation row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll_animation show-all text-center mt-2">
+                            <a class="px-5 py-2 btn btn-outline-dark " href="#">Xem tất cả <i
+                                    class="fa-regular fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="catalog-product-list container">
+                        <div class="scroll_animation section_title text-center mb-3 pt-5">
+                            <h4 class="text-uppercase">IPhone</h>
+                        </div>
+                        <div class="scroll_animation row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-6">
+                                <div class="item_product_main">
+                                    <form action="#" method="post" class="variants product-action item-product-main duration-300" data-cart-form="" data-id="product-actions-30510614" enctype="multipart/form-data">
+                                        <span class="flash-sale">Giảm
+                                            40%
+                                        </span>
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb scale_hover" href="#" title="iPhone 13 Pro Max 1TB - Chính Hãng VN/A">
+                                                <img class="lazyload duration-300 loaded" src="//bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803">
+                                            </a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name line-clamp line-clamp-2 ">
+                                                <a href="#" title="" class="text-decoration-none ">iPhone 13 Pro Max
+                                                    1TB-Chính Hãng VN/A</a>
+                                            </h3>
+                                            <div class="product-price-cart">
+                                                <div class="price-box">
+                                                    <span class="compare-price">49.990.000₫</span>
+                                                    <span class="price">29.990.000₫</span>
+                                                </div>
+                                                <div class="product-button ">
+                                                    <input class="hidden" type="hidden" name="variantId" value="86286440">
+                                                    <button class="btn-cart btn-views rounded border-0 px-2" title="Tùy chọn" type="button">
+                                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="promotion-content">
+                                            <div class="line-clamp-2-new" title="Thu cũ đổi mới: Thu giá cao trợ giá đến 90%">
+                                                <p>Thu cũ đổi mới: Thu giá cao trợ giá đến 90%</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll_animation show-all text-center mt-2">
+                            <a class="px-5 py-2 btn btn-outline-dark " href="#">Xem tất cả <i
+                                    class="fa-regular fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll_animation section-banner_new pt-5">
+                    <div class="bg-banner">
+                        <div class="container">
+                            <div class="section_title text-center mb-3">
+                                <h4 class="text-uppercase">THÔNG TIN SẢN PHẨM MỚI</h>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-left d-flex align-items-center">
+                                    <div class="product-content">
+                                        <span class="sub-title mb-2">iPhone 15 - 15 Pro Max</span>
+                                        <h3>iPhone 15 Pro Max sẽ có viền màn hình mỏng nhất thế giới.</h3>
+                                        <div class="desc">
+                                            Theo Apple Insider, dựa trên những bản CAD (thiết kế có sự hỗ trợ của máy tính) rò rỉ gần đây, iPhone 15 Pro Max có thể dày hơn iPhone 14 Pro Max, mặc dù phần lồi camera nhỏ hơn một chút. Thông tin mới nhất từ chuyên gia rò rỉ Ice Universe tiết lộ kích
+                                            thước 1,55 mm của phần khung viền trên iPhone 15 Pro Max sẽ phá kỷ lục trước đó được thiết lập bởi Xiaomi 13 là 1,81mm.
+                                        </div>
+                                        <a href="#" title="Xem thêm" class="btn btn-dark px-4 mt-4">
+                                            Xem thêm <i class="fa-solid fa-angle-right"></i>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 col-md-6 d-lg-none d-md-none d-sm-block d-none pt-3">
+                                    <picture class="d-flex justify-content-center bg-banner-item_img">
+                                        <img width="323" height="252"
+                                            src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/section_banner_new_product.png?1712897547805">
+                                    </picture>
+                                </div>
+                                <div class="col-12 col-md-6 d-lg-none d-md-block d-sm-none pt-3">
+                                    <picture class="d-flex justify-content-center bg-banner-item_img">
+                                        <img width="403" height="332"
+                                            src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/section_banner_new_product.png?1712897547805">
+                                    </picture>
+                                </div> -->
+                                <div class="col-12 col-md-6 pt-3">
+                                    <picture class="d-flex justify-content-center bg-banner-item_img">
+                                        <img width="573" height="502" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/section_banner_new_product.png?1712897547805">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll_animation select-news pt-5">
+                    <div class="container">
+                        <div class="section_title text-center mt-4">
+                            <h4 class="text-uppercase">Tin tức công nghệ</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                <div class="news-item">
+                                    <a href="#" class="list-group-item">
+                                        <div class="card border-0">
+                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433" class="card-img-top" alt="iphone">
+                                            <div class="card-body px-3">
+                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                </h3>
+                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định với thiết kế tai thỏ suốt nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như Apple một lần nữa đã sáng suốt. Cái chết của camera thò thụt...
+                                                </p>
+                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                    20/05/2024<span />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                <div class="news-item">
+                                    <a href="#" class="list-group-item">
+                                        <div class="card border-0">
+                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433"
+                                                class="card-img-top" alt="iphone">
+                                            <div class="card-body px-3">
+                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã
+                                                    đúng khi không đụng đến
+                                                    tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                </h3>
+                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định
+                                                    với thiết kế tai thỏ suốt
+                                                    nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như
+                                                    Apple một lần nữa đã sáng suốt.
+                                                    Cái chết của camera thò thụt...
+                                                </p>
+                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                    20/05/2024<span />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                <div class="news-item">
+                                    <a href="#" class="list-group-item">
+                                        <div class="card border-0">
+                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433"
+                                                class="card-img-top" alt="iphone">
+                                            <div class="card-body px-3">
+                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã
+                                                    đúng khi không đụng đến
+                                                    tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                </h3>
+                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định
+                                                    với thiết kế tai thỏ suốt
+                                                    nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như
+                                                    Apple một lần nữa đã sáng suốt.
+                                                    Cái chết của camera thò thụt...
+                                                </p>
+                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                    20/05/2024<span />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                <div class="news-item">
+                                    <a href="#" class="list-group-item">
+                                        <div class="card border-0">
+                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433"
+                                                class="card-img-top" alt="iphone">
+                                            <div class="card-body px-3">
+                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã
+                                                    đúng khi không đụng đến
+                                                    tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                </h3>
+                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định
+                                                    với thiết kế tai thỏ suốt
+                                                    nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như
+                                                    Apple một lần nữa đã sáng suốt.
+                                                    Cái chết của camera thò thụt...
+                                                </p>
+                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                    20/05/2024<span />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="show-all text-center">
+                            <a class="px-5 py-2 btn btn-outline-dark " href="#">Xem tất cả <i
+                                    class="fa-regular fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <!-- End main content -->
+ <!-- Form info -->
+ <article>
+    <div class="pt-3 mb-2">
+        <div class=" col-12 text-center py-3" style="background: #F2F2F2; color: #515154;">
+            <h3>Đăng kí nhận tin từ ShopDuck</h3>
+            <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+            <div class="input-group justify-content-center">
+                <input type="text" class=" rounded-start-5 px-3 border-0 col-md-6" placeholder="Email của bạn">
+                <button class="input-group-text btn text-bg-primary rounded-end-5 px-4">Đăng kí</button>
+            </div>
+        </div>
+    </div>
+</article>
+<!-- Form info -->
+<!-- Footer -->
+<div class="bg-dark">
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-12 footer-item">
+                    <h5 class="mb-3">Logo</h5>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2">Hệ thống cửa hàng Sudes Phone chuyên bán lẻ điện thoại, máy tính laptop, smartwatch, smarthome, phụ kiện chính hãng - Giá tốt, giao miễn phí.</li>
+                        <li class="nav-item mb-2"><b>Địa chỉ:</b> 70 Lữ Gia, Phường 15, Quận 11, Tp.HCM</li>
+                        <li class="nav-item mb-2"><b>Điện thoại:</b> 1900 6750</li>
+                        <li class="nav-item mb-2"><b>Email:</b> support@sapo.vn</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                    <h5 class="mb-3">CHÍNH SÁCH</h5>
+                    <ul class="nav flex-column itemCard">
+                        <li class="nav-item mb-2 text-light"><a href="">Chính sách mua hàng</a></li>
+                        <li class="nav-item mb-2"><a href="">chính sách đổi trả</a></li>
+                        <li class="nav-item mb-2"><a href="">Chính sách vận chuyển</a></li>
+                        <li class="nav-item mb-2"><a href="">Chính sách bảo mật</a></li>
+                        <li class="nav-item mb-2"><a href="">Chính sách cam kết</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                    <h5 class="mb-3">HƯỚNG DẪN</h5>
+                    <ul class="nav flex-column itemCard">
+                        <li class="nav-item mb-2"><a href="">Hướng dẫn mua hàng</a></li>
+                        <li class="nav-item mb-2"><a href="">Hướng dẫn đổi trả</a></li>
+                        <li class="nav-item mb-2"><a href="">Hướng dẫn chuyển khoản</a></li>
+                        <li class="nav-item mb-2"><a href="">Hướng dẫn trả góp</a></li>
+                        <li class="nav-item mb-2"><a href="">Hướng dẫn hoàn hàng</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-4 p-0 m-0 footer-item">
+                    <ul class="row itemCard p-0 m-0">
+                        <li class="mb-3">
+                            <h5>KẾT NỐI VỚI CHÚNG TÔI</h5>
+                        </li>
+                        <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                            <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/facebook_2.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2 ">
+                            <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/instagram_1.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                            <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                            <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                        </li>
+
+                    </ul>
+                    <ul class="row itemCard p-0 m-0">
+                        <li class="mb-3 mt-3">
+                            <h5>HỖ TRỢ THANH TOÁN</h5>
+                        </li>
+                        <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                            <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                            <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                            <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                            <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                        </li>
+                        <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                            <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- End Footer -->
+ 
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const boxes = document.querySelectorAll('.scroll_animation');
+        function checkBoxes() {
+            const triggerBottom = window.innerHeight + 20;
+            boxes.forEach(box => {
+                const boxTop = box.getBoundingClientRect().top;
+                if (boxTop < triggerBottom) {
+                    box.classList.add('show');
+                } else {
+                    box.classList.remove('show');
+                }
+            });
+        }
+        window.addEventListener('scroll', checkBoxes);
+        checkBoxes(); // Kiểm tra khi tải trang
+    });
+
+</script>
+<!-- script -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js "></script>
+
+</html>

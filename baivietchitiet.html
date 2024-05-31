@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/Font-Awesome-640/css/all.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+    <!-- icon fixed -->
+    <div class="contact-position text-light">
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 50px; right: 20px;">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="position-absolute translate-middle p-2 bg-danger rounded-circle">
+      </span>
+        </div>
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 130px; right: 20px;">
+            <a href="https://zalo.me/0353605901"><i class="fa-sharp fa-solid fa-phone-volume fa-shake text-light"></i></a>
+        </div>
+        <div class="master-wrapper-page container-fluid p-0">
+        </div>
+    </div>
+    <!-- endIconfixed -->
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler icon-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="logo d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img width="249" height="26" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" data-src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" alt="Sudes Phone" class="lazyload loaded" data-was-processed="true">
+                    </a>
+                    <p class="navbar-toggler border-0 ps-2 icon-cart">
+                        <i class="fa-solid fa-cart-shopping fa-lg mt-4" style="color: #ffffff;"></i>
+                        <span class="cart-count-mobile">12</span>
+                    </p>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item ms-5">
+                            <div class="d-flex mt-1">
+                                <input class="form-control text-secondary text-opacity-50 input-search" type="search" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-5 shadow bg-body bg-secondary bg-opacity-25 rounded-1" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-light fa-location-dot fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Hệ thống cửa hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2 fs-navbar-2">7 cửa hàng</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-solid fa-phone-volume fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Gọi mua hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2">1900 6750</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <div class="float-start pb-5 px-1" style="width: 110px;">
+                                <i class="float-start fa-regular fa-user fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Thông tin</span><br/>
+                                <div class="dropdown" style="margin-left: 36px;">
+                                    <span class="dropdown-toggle text-white fs-navbar-2" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </span>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-2 list-group-item d-flex justify-content-between align-items-start" style="height: 50px;">
+                            <div class="ms-2 me-auto">
+                                <i class="fa-solid fa-cart-shopping fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="cart-count">12</span>
+                                <span class="text-white ps-2 fs-navbar-2">Giỏ hàng</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="m-0 text-white hr-line">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-mobile">
+            <!-- navbar show web  -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-collapse navbar-nav mb-2 mb-lg-0 justify-content-center">
+                        <li class="navbar-toggler nav-item border-0">
+                            <div class="d-flex mt-1 input-search-mobile">
+                                <input class="form-control text-secondary text-opacity-50" type="text" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="navbar-toggler nav-item mxc border-0">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle text-white fs-6" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tài khoản
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">iPhone</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                iPad
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Air</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad 10.9</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad mini</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Macbook - iMac
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Air</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Apple watch
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch Utra</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S7</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S6</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch SE</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S8</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Airpods</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Phụ kiện
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Phụ kiện Aplle</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Cốc - Cáp Sạc</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Bao Da - Ốp Lưng</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dán Cường Lực</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Sạc Dự Phòng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Chính sách</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- navbar show web  -->
+        </nav>
+    </header>
+    <!-- Endheader -->
+
+    <!-- Main content -->
+    <section class="bread-crumb">
+        <section class="bread-crumb ">
+            <div class="container ">
+                <ul class="breadcrumb d-flex ">
+                    <li class="home">
+                        <a href="#" title="Trang chủ"><span>Trang chủ</span></a>
+                        <span class="mr_lr mx-2"><i class="fas fa-angle-right"></i></span>
+                        <span> iPhone</span>
+                        <span class="mr_lr"><i class="fas fa-angle-right"></i></span>
+                        <strong>
+                            <span >'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</span>
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <main>
+            <section class="blogpage">
+                <div class="container layout-article">
+                    <div class="bg_blog">
+                        <article class="article-main">
+                            <div class="row d-flex">
+                                <div class="right-content col-lg-9 col-12">
+                                    <div class="article-details clearfix">
+                                        <h1 class="article-title fs-3">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</h1>
+                                        <div class="posts d-flex mb-3">
+                                            <div class="time-post ">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Thứ Sáu, 28/04/2023</span>
+                                            </div>
+                                            <div class="time-post mx-3">
+                                                <i class="fa-solid fa-user"></i>
+                                                <span>Huỳnh Nguyễn Hồng Liêm</span>
+                                            </div>
+                                        </div>
+                                        <div class="article-image ">
+                                            <img class="img-fluid loaded" src="https://bizweb.dktcdn.net/100/480/632/articles/010.jpg">
+                                        </div>
+                                        <div class="rte">
+                                            <h2 class="fs-4">iPhone vẫn kiên định với thiết kế tai thỏ suốt nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như Apple một lần nữa đã sáng suốt.</h2>
+                                            <h2 class="fs-4"><b>Cái chết của camera thò thụt</b></h2>
+                                            <p>Nỗi ám ảnh về màn hình không viền trên điện thoại thông minh đã được thúc đẩy bởi Mi MIX của Xiaomi vào năm 2016 khi tỷ lệ màn hình trên thân máy của thiết bị này lên tới 91,3%, khiến công chúng trầm trồ.</p>
+                                            <p>Để đạt được thiết kế này, Xiaomi đã sử dụng một giải pháp độc đáo là đặt camera ở viền dưới của điện thoại.</p>
+                                            <p>Những hãng sản xuất khác như Samsung đã thực hiện các giải pháp tăng tỷ lệ màn hình ít phức tạp hơn bằng cách thu nhỏ viền trên Galaxy S8 và S9. iPhone X và OnePlus 6 của Apple thì có phần tai thỏ, nhưng vẫn
+                                                bị đánh giá là thiếu tính thẩm mỹ.</p>
+                                            <p>Không lâu sau, cuộc cạnh tranh chuyển sang viền màn hình dạng giọt nước trước khi chốt lại ở viền đục lỗ phổ biến hiện nay. Tuy nhiên, trong vài năm trước đó, thứ mà công chúng bàn tán nhiều nhất lại là dạng
+                                                camera selfie thò thụt (pop up).</p>
+                                            <p>Mặc dù đã nỗ lực hết sức, không có thiết kế nào giành chiến thắng trong cuộc đua tăng tỷ lệ màn hình bằng thiết kế camera selfie dạng thò thụt. Hình thái này cho phép tỷ lệ màn hình trên thân máy ở mức cao mà
+                                                không có nhược điểm của tai thỏ, đục lỗ hay thậm chí là viền dày.</p>
+                                            <p>Thiết kế cũng mang đến cho điện thoại một giao diện đầy tính tương lai đồng thời giúp người dùng không phải lo lắng về quyền riêng tư vì camera trước không phải lúc nào cũng nhìn chằm chằm vào họ.</p>
+                                            <p>&nbsp;</p>
+                                            <figure type="Photo">
+                                                <p>
+                                                    <a data-fancybox="detail-img-lightbox">
+                                                        <img class="img-fluid" src="https://genk.mediacdn.vn/139269124445442048/2023/4/13/xiaomi-mi-9t-pro-glacier-blue-pop-up-selfie-camera-1681315197196305937564-1681350960740-16813509610681888055398.jpg">
+                                                    </a>
+                                                </p>
+                                            </figure>
+
+                                            <p>Sản phẩm đầu tiên lên kệ với camera thò thụt là Vivo NEX vào năm 2018, mở đường cho nhiều sản phẩm khác ra mắt sau đó vào năm 2019.</p>
+
+                                            <p>Những sản phẩm như Reno 10X Zoom của Oppo mang đến thiết kế nổi bật, nhưng chính dòng Mi 9T của Xiaomi và OnePlus 7 Pro/7T Pro mới khiến thiết kế camera selfie thò thụt trở thành xu hướng chủ đạo.</p>
+
+                                            <p>Tuy nhiên, vì một số lý do, xu hướng này bất ngờ đi xuống dù chỉ mới ra mắt không lâu. Các thiết kế thò thụt giảm dần vào năm 2020 và biến mất hoàn toàn vào năm 2021.</p>
+
+                                            <p>Các thiết bị gần đây nhất có camera thò thụt là Lenovo Legion Duel 2, tập trung vào chơi game và Asus ZenFone 8 Flip. Cả hai thiết bị đều có lượng bán hạn chế, điều này cho thấy nhu cầu thật sự không nhiều.</p>
+
+                                            <h2><b>Cái chết của camera thò thụt có phải tại Apple?</b></h2>
+
+                                            <p>Vì sao xu hướng camera được coi là tương lai như vậy lại chết yểu nhanh chóng? Phải chăng các ông lớn như Apple và Samsung chưa bao giờ chấp nhận thiết kế này chính là lý do?</p>
+
+                                            <p>Trên thực tế, nguyên nhân đến từ các vấn đề kỹ thuật. Việc hướng đến những chiếc điện thoại mỏng và nhẹ hơn là một trong những lý do giúp camera selfie thò thụt trở nên phổ biến. Tuy nhiên, các mô-đun này không
+                                                phục vụ mục đích như các nhà sản xuất mong đợi.</p>
+
+                                            <p>Thay vào đó, chúng lại gia tăng thêm trọng lượng và độ dày tổng thể của điện thoại do có nhiều bộ phận phức tạp cần thiết để hoạt động đúng cách.</p>
+
+                                            <p>Bên cạnh sự phức tạp, máy ảnh có thể thu vào cũng đồng nghĩa là sẽ có thêm một lỗ để hút hơi ẩm vào điện thoại. Chính vì lẽ đó, không có thoại nào trong số này hỗ trợ xếp hạng chống nước IP6X.</p>
+
+                                            <p>Mặc dù các nhà sản xuất luôn tuyên bố rằng camera selfie thò thụt đã được thử nghiệm rộng rãi để đảm bảo chúng bền bỉ theo năm tháng, nhưng lẽ thường các bộ phận hay hoạt động sẽ dễ bị hao mòn hơn so với các
+                                                bộ phận nằm yên.</p>
+
+                                            <p>&nbsp;</p>
+
+                                            <figure type="Photo">
+                                                <p>
+                                                    <img class="img-fluid" src="https://genk.mediacdn.vn/139269124445442048/2023/4/13/verge-imagefromios4-2040pxl0-16813152943091264492683-1681350968809-16813509689991483699406.jpg">
+                                                    </a>
+                                                </p>
+                                            </figure>
+
+                                            <p>Đối với những người hiếm khi sử dụng camera trước, việc ẩn camera đi là điều thú vị. Họ có được chiếc điện thoại mở rộng toàn màn hình trong khi cái giá phải trả chỉ là bớt đi thứ họ không mấy khi dùng.</p>
+
+                                            <p>Tuy nhiên, có những người chụp rất nhiều ảnh tự sướng, thực hiện nhiều cuộc gọi video và quay các video ngắn cho mạng xã hội.</p>
+
+                                            <p>Lấy người dùng TikTok làm ví dụ. Một chiếc điện thoại có camera bật lên rồi lại thu vào mỗi khi định dùng ứng dụng có thể gây khó chịu. Tiếng ồn mà cơ chế thò thụt tạo ra cũng chẳng êm ái gì theo thời gian.</p>
+
+                                            <p>Trong một thế giới có hơn 1 tỷ người dùng TikTok, việc có một camera selfie giấu kín trong máy không bao giờ là điều tiện dụng. Điều này cũng đúng với các ứng dụng thường sử dụng camera trước, trong số đó có
+                                                Instagram, WhatsApp và thậm chí cả Telegram.</p>
+
+                                            <p>Ngay cả các nhà sản xuất cũng nhanh chóng nhận ra rằng việc đánh đổi lấy không gian bên trong điện thoại để đặt camera là chẳng đáng. Không ngạc nhiên khi xu hướng đã kết thúc trước cả khi Apple và Samsung có
+                                                ý định làm thứ gì đó hay ho.</p>
+
+                                            <p>Nhiều người lập luận rằng chúng chỉ là một biện pháp tạm thời để thúc đẩy công nghệ máy ảnh dưới màn hình dự kiến sẽ thay thế dạng đục lỗ trong tương lai gần.</p>
+
+                                            <p>Với máy ảnh dưới màn hình, sẽ chẳng cần phải camera thò thụt hay tai thỏ, đục lỗ gì nữa. Chỉ riêng điều này thôi cũng đủ để khiến những người quan tâm đến thiết kế toàn màn hình hào hứng.</p>
+
+                                            <p>Tuy nhiên, camera thò thụt vẫn mang lại dư âm tích cực đối với người dùng. Trong một cuộc khảo sát gần đây, có hơn 50% người tham gia đồng ý rằng họ nhớ thiết kế camera selfie thò thụt trên điện thoại thông
+                                                minh. Trong khi khoảng 27% người nói không, số còn lại cho biết họ chưa bao giờ có dạng điện thoại như vậy.</p>
+
+                                            <p>Dù bằng cách nào, cái chết của một thứ không phù hợp sẽ mở đường cho những điều khác tốt hơn. Người dùng có thể phải kiên nhẫn hơn một chút trước khi máy ảnh dưới màn hình trở thành xu hướng.</p>
+                                        </div>
+                                    </div>
+                                    <div class="blog_related">
+                                        <div class="title" style="font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px">Tin tức liên quan</div>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                                <div class="news-item">
+                                                    <a href="#" class="list-group-item">
+                                                        <div class="card border-0">
+                                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433" class="card-img-top" alt="iphone">
+                                                            <div class="card-body px-3">
+                                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                                </h3>
+                                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định với thiết kế tai thỏ suốt nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như Apple một lần nữa đã sáng suốt. Cái chết của camera thò thụt...
+                                                                </p>
+                                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                                20/05/2024</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                                <div class="news-item">
+                                                    <a href="#" class="list-group-item">
+                                                        <div class="card border-0">
+                                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433" class="card-img-top" alt="iphone">
+                                                            <div class="card-body px-3">
+                                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                                </h3>
+                                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định với thiết kế tai thỏ suốt nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như Apple một lần nữa đã sáng suốt. Cái chết của camera thò thụt...
+                                                                </p>
+                                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                                20/05/2024</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                                <div class="news-item">
+                                                    <a href="#" class="list-group-item">
+                                                        <div class="card border-0">
+                                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433" class="card-img-top" alt="iphone">
+                                                            <div class="card-body px-3">
+                                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                                </h3>
+                                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định với thiết kế tai thỏ suốt nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như Apple một lần nữa đã sáng suốt. Cái chết của camera thò thụt...
+                                                                </p>
+                                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                                20/05/2024</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-ms-6 col-6 mb-4">
+                                                <div class="news-item">
+                                                    <a href="#" class="list-group-item">
+                                                        <div class="card border-0">
+                                                            <img src="//bizweb.dktcdn.net/100/480/632/articles/010.jpg?v=1682692969433" class="card-img-top" alt="iphone">
+                                                            <div class="card-body px-3">
+                                                                <h3 class="news-title line-clamp line-clamp-2 ">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu
+                                                                </h3>
+                                                                <p class="news-desc line-clamp line-clamp-3 mb-1">iPhone vẫn kiên định với thiết kế tai thỏ suốt nhiều năm dù bị nhiều người dùng chỉ trích. Thế nhưng, có vẻ như Apple một lần nữa đã sáng suốt. Cái chết của camera thò thụt...
+                                                                </p>
+                                                                <span class="news-desc_item"><i class="fa-solid fa-clock"></i>
+                                                                20/05/2024</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="blog_left_base col-lg-3 col-12 ">
+                                    <div class="side-right-stick ">
+                                        <div class="aside-content aside-content-blog ">
+                                            <h2 class="title-head ">
+                                                <a class="text-light text-decoration-none" style="font-size: 16px;">Danh mục tin tức</a>
+                                            </h2>
+                                            <nav class="nav-category ">
+                                                <ul class=" navbar-pills ">
+                                                    <li class="nav-item  ">
+                                                        <a class="nav-link " href="#">Tin công nghệ</a>
+                                                    </li>
+                                                    <li class="nav-item  ">
+                                                        <a class="nav-link " href="#">Đánh giá</a>
+                                                    </li>
+                                                    <li class="nav-item  ">
+                                                        <a class="nav-link " href="# ">Mẹo hay</a>
+                                                    </li>
+                                                    <li class="nav-item  ">
+                                                        <a class="nav-link " href="# ">Khuyến mãi</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="blog_noibat ">
+                                            <h2 class="h2_sidebar_blog ">
+                                                <a href="#" class="text-decoration-none" style="font-size: 16px;">Tin tức nổi bật</a>
+                                            </h2>
+                                            <div class="blog_content ">
+                                                <div class="item clearfix d-flex">
+                                                    <div class="post-thumb ">
+                                                        <a class="image-blog scale_hover " href="# ">
+                                                            <img class="img_blog lazyload loaded " src="https://bizweb.dktcdn.net/100/480/632/articles/010.jpg ">
+                                                        </a>
+                                                    </div>
+                                                    <div class="contentright mx-0">
+                                                        <h3>
+                                                            <a style="font-size: 14px;line-height: 2;">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</a>
+                                                        </h3>
+                                                        <p class="time-post ">
+                                                            <span>
+                                        28/04/2023
+                                    </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="blog_content ">
+                                                <div class="item clearfix d-flex">
+                                                    <div class="post-thumb ">
+                                                        <a class="image-blog scale_hover " href="# ">
+                                                            <img class="img_blog lazyload loaded " src="https://bizweb.dktcdn.net/100/480/632/articles/010.jpg ">
+                                                        </a>
+                                                    </div>
+                                                    <div class="contentright mx-0">
+                                                        <h3>
+                                                            <a style="font-size: 14px;line-height: 2;">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</a>
+                                                        </h3>
+                                                        <p class="time-post ">
+                                                            <span>
+                                        28/04/2023
+                                    </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="blog_content ">
+                                                <div class="item clearfix d-flex">
+                                                    <div class="post-thumb rounded-1">
+                                                        <a class="image-blog scale_hover " href="# ">
+                                                            <img class="img_blog lazyload loaded " src="https://bizweb.dktcdn.net/100/480/632/articles/010.jpg ">
+                                                        </a>
+                                                    </div>
+                                                    <div class="contentright mx-0">
+                                                        <h3>
+                                                            <a style="font-size: 14px;line-height: 2;">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</a>
+                                                        </h3>
+                                                        <p class="time-post ">
+                                                            <span>
+                                        28/04/2023
+                                    </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="blog_content ">
+                                                <div class="item clearfix d-flex">
+                                                    <div class="post-thumb ">
+                                                        <a class="image-blog scale_hover " href="# ">
+                                                            <img class="img_blog lazyload loaded " src="https://bizweb.dktcdn.net/100/480/632/articles/010.jpg ">
+                                                        </a>
+                                                    </div>
+                                                    <div class="contentright mx-0">
+                                                        <h3>
+                                                            <a style="font-size: 14px;line-height: 2;">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</a>
+                                                        </h3>
+                                                        <p class="time-post ">
+                                                            <span>
+                                        28/04/2023
+                                    </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="blog_content ">
+                                                <div class="item clearfix d-flex">
+                                                    <div class="post-thumb ">
+                                                        <a class="image-blog scale_hover " href="# " style="border-radius: 10px;">
+                                                            <img class="img_blog lazyload loaded " src="https://bizweb.dktcdn.net/100/480/632/articles/010.jpg ">
+                                                        </a>
+                                                    </div>
+                                                    <div class="contentright mx-0">
+                                                        <h3>
+                                                            <a style="font-size: 14px;line-height: 2;">'Thò thụt': iPhone đã đúng khi không đụng đến tính năng này suốt những năm qua - Đình đám một thời nay đã chết yểu</a>
+                                                        </h3>
+                                                        <p class="time-post ">
+                                                            <span>
+                                        28/04/2023
+                                    </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
+    <!-- Form info -->
+    <article>
+        <div class="pt-3 mb-2">
+            <div class=" col-12 text-center py-3" style="background: #F2F2F2; color: #515154;">
+                <h3>Đăng kí nhận tin từ ShopDuck</h3>
+                <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                <div class="input-group justify-content-center">
+                    <input type="text" class=" rounded-start-5 px-3 border-0 col-md-6" placeholder="Email của bạn">
+                    <button class="input-group-text btn text-bg-primary rounded-end-5 px-4">Đăng kí</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Form info -->
+    <!-- Footer -->
+    <div class="bg-dark">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-12 footer-item">
+                        <h5 class="mb-3">Logo</h5>
+                        <ul class="nav flex-column ">
+                            <li class="nav-item mb-2">Hệ thống cửa hàng Sudes Phone chuyên bán lẻ điện thoại, máy tính laptop, smartwatch, smarthome, phụ kiện chính hãng - Giá tốt, giao miễn phí.</li>
+                            <li class="nav-item mb-2"><b>Địa chỉ:</b> 70 Lữ Gia, Phường 15, Quận 11, Tp.HCM</li>
+                            <li class="nav-item mb-2"><b>Điện thoại:</b> 1900 6750</li>
+                            <li class="nav-item mb-2"><b>Email:</b> support@sapo.vn</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                        <h5 class="mb-3">CHÍNH SÁCH</h5>
+                        <ul class="nav flex-column itemCard">
+                            <li class="nav-item mb-2 text-light"><a href="">Chính sách mua hàng</a></li>
+                            <li class="nav-item mb-2"><a href="">chính sách đổi trả</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách vận chuyển</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách bảo mật</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách cam kết</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                        <h5 class="mb-3">HƯỚNG DẪN</h5>
+                        <ul class="nav flex-column itemCard">
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn mua hàng</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn đổi trả</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn chuyển khoản</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn trả góp</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn hoàn hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-4 p-0 m-0 footer-item">
+                        <ul class="row itemCard p-0 m-0">
+                            <li class="mb-3">
+                                <h5>KẾT NỐI VỚI CHÚNG TÔI</h5>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/facebook_2.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2 ">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/instagram_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                            </li>
+
+                        </ul>
+                        <ul class="row itemCard p-0 m-0">
+                            <li class="mb-3 mt-3">
+                                <h5>HỖ TRỢ THANH TOÁN</h5>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- End Footer -->
+</body>
+
+</html>

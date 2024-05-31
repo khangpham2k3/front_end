@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudes Phone Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/Font-Awesome-640/css/all.css">
+    <link rel="shortcut icon" href="/public/images/uploaded/logo/0012445_Logo_ShopDunk.png" />
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+
+<body>
+    <!-- icon fixed -->
+    <div class="contact-position text-light">
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 50px; right: 20px;">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="position-absolute translate-middle p-2 bg-danger rounded-circle">
+      </span>
+        </div>
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 130px; right: 20px;">
+            <a href="https://zalo.me/0353605901"><i class="fa-sharp fa-solid fa-phone-volume fa-shake text-light"></i></a>
+        </div>
+        <div class="master-wrapper-page container-fluid p-0">
+        </div>
+    </div>
+    <!-- endIconfixed -->
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler icon-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="logo d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img width="249" height="26" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" data-src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" alt="Sudes Phone" class="lazyload loaded" data-was-processed="true">
+                    </a>
+                    <p class="navbar-toggler border-0 ps-2 icon-cart">
+                        <i class="fa-solid fa-cart-shopping fa-lg mt-4" style="color: #ffffff;"></i>
+                        <span class="cart-count-mobile">12</span>
+                    </p>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item ms-5">
+                            <div class="d-flex mt-1">
+                                <input class="form-control text-secondary text-opacity-50 input-search" type="search" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-5 shadow bg-body bg-secondary bg-opacity-25 rounded-1" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-light fa-location-dot fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Hệ thống cửa hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2 fs-navbar-2">7 cửa hàng</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-solid fa-phone-volume fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Gọi mua hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2">1900 6750</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <div class="float-start pb-5 px-1" style="width: 110px;">
+                                <i class="float-start fa-regular fa-user fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Thông tin</span><br/>
+                                <div class="dropdown" style="margin-left: 36px;">
+                                    <span class="dropdown-toggle text-white fs-navbar-2" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </span>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-2 list-group-item d-flex justify-content-between align-items-start" style="height: 50px;">
+                            <div class="ms-2 me-auto">
+                                <i class="fa-solid fa-cart-shopping fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="cart-count">12</span>
+                                <span class="text-white ps-2 fs-navbar-2">Giỏ hàng</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="m-0 text-white hr-line">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-mobile">
+            <!-- navbar show web  -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-collapse navbar-nav mb-2 mb-lg-0 justify-content-center">
+                        <li class="navbar-toggler nav-item border-0">
+                            <div class="d-flex mt-1 input-search-mobile">
+                                <input class="form-control text-secondary text-opacity-50" type="text" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="navbar-toggler nav-item mxc border-0">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle text-white fs-6" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tài khoản
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">iPhone</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                iPad
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Air</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad 10.9</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad mini</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Macbook - iMac
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Air</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Apple watch
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch Utra</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S7</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S6</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch SE</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S8</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Airpods</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Phụ kiện
+                            </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Phụ kiện Aplle</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Cốc - Cáp Sạc</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Bao Da - Ốp Lưng</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dán Cường Lực</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Sạc Dự Phòng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Chính sách</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- navbar show web  -->
+        </nav>
+    </header>
+    <!-- Endheader -->
+
+    <div class="layout-collection">
+        <section class="bread-crumb">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="home">
+                        <a href="#" title="Trang chủ"><span>Trang chủ</span></a>
+                        <span class="mr_lr mx-2"><i class="fas fa-angle-right"></i></span>
+                        <strong><span>Thanh toán</span></strong>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- Main -->
+        <main>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Thông tin nhận hàng</h4>
+                        <form>
+                            <div class="form-group my-3">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group my-3">
+                                <input type="text" class="form-control" placeholder="Họ và tên">
+                            </div>
+                            <div class="input-group my-3">
+                                <input type="text" class="form-control" placeholder="Số điện thoại (tùy chọn)">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/thums/viet-nam.png" alt="" style="width:30px"></button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">Zambia (+260)</a></li>
+                                    <li><a class="dropdown-item" href="#">Yemen (+967)</a></li>
+                                    <li><a class="dropdown-item" href="#">Taiwan (+886)</a></li>
+                                </ul>
+                            </div>
+                            <div class="form-group my-3">
+                                <input type="text" class="form-control" placeholder="Địa chỉ (tùy chọn)">
+                            </div>
+                            <div class="form-group my-3">
+                                <select class="form-control">
+                            <option>Tỉnh thành</option>
+                        </select>
+                            </div>
+                            <div class="form-group my-3">
+                                <select class="form-control">
+                            <option>Quận huyện (tùy chọn)</option>
+                        </select>
+                            </div>
+                            <div class="form-group my-3">
+                                <select class="form-control">
+                            <option>Phường xã (tùy chọn)</option>
+                        </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Ghi chú (tùy chọn)"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Vận chuyển</h4>
+                        <div class="alert alert-info">
+                            Vui lòng nhập thông tin giao hàng
+                        </div>
+                        <h4>Thanh toán</h4>
+                        <div class="form-group" style="border: 2px solid blue ; border-radius: 4px; height:50px">
+                            <div class="custom-control custom-radio mt-2 ms-2">
+                                <input type="radio" id="cod" name="paymentMethod" class="custom-control-input" checked>
+                                <label class="custom-control-label" for="cod">Thanh toán khi giao hàng (COD)</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Đơn hàng (3 sản phẩm)</h4>
+                        <div class="order-summary mb-3">
+                            <div class="d-flex">
+                                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_3.png" alt="Product Image" style="height:55px">
+                                <div class="ml-3">
+                                    <div class="product-name">iPhone 13 Pro Max 1TB - Chính Hãng VN/A</div>
+                                    <div class="row">
+                                        <div class="col-8 text-light-emphasis">Vàng</div>
+                                        <div class="text-right col-3 text-light-emphasis">89.970.000đ</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="form-group d-flex">
+                            <input type="text" class="form-control" placeholder="Nhập mã giảm giá" style="height:50px; width:300px">
+                            <button class="btn btn-primary btn-apply" style="height:50px">Áp dụng</button>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <div>Tạm tính</div>
+                            <div class="text-secondary">89.970.000đ</div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div>Phí vận chuyển</div>
+                            <div>-</div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between font-weight-bold">
+                            <div>Tổng cộng</div>
+                            <div class="fs-4 text-primary">89.970.000đ</div>
+                        </div>
+                        <div class="row">
+                            <div class="text-center mt-3 col-7 pt-2">
+                                <a href="#" class="text-decoration-none pe-5"><i class="fa-solid fa-chevron-left pt-2 me-2"></i> Quay về giỏ hàng</a>
+                            </div>
+                            <button class="btn btn-primary col-3 mt-3 ms-5">ĐẶT HÀNG</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Form info -->
+    <article>
+        <div class="pt-3 mb-2">
+            <div class=" col-12 text-center py-3" style="background: #F2F2F2; color: #515154;">
+                <h3>Đăng kí nhận tin từ ShopDuck</h3>
+                <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                <div class="input-group justify-content-center">
+                    <input type="text" class=" rounded-start-5 px-3 border-0 col-md-6" placeholder="Email của bạn">
+                    <button class="input-group-text btn text-bg-primary rounded-end-5 px-4">Đăng kí</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Form info -->
+    <!-- Footer -->
+    <div class="bg-dark">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-12 footer-item">
+                        <h5 class="mb-3">Logo</h5>
+                        <ul class="nav flex-column ">
+                            <li class="nav-item mb-2">Hệ thống cửa hàng Sudes Phone chuyên bán lẻ điện thoại, máy tính laptop, smartwatch, smarthome, phụ kiện chính hãng - Giá tốt, giao miễn phí.</li>
+                            <li class="nav-item mb-2"><b>Địa chỉ:</b> 70 Lữ Gia, Phường 15, Quận 11, Tp.HCM</li>
+                            <li class="nav-item mb-2"><b>Điện thoại:</b> 1900 6750</li>
+                            <li class="nav-item mb-2"><b>Email:</b> support@sapo.vn</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                        <h5 class="mb-3">CHÍNH SÁCH</h5>
+                        <ul class="nav flex-column itemCard">
+                            <li class="nav-item mb-2 text-light"><a href="">Chính sách mua hàng</a></li>
+                            <li class="nav-item mb-2"><a href="">chính sách đổi trả</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách vận chuyển</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách bảo mật</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách cam kết</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                        <h5 class="mb-3">HƯỚNG DẪN</h5>
+                        <ul class="nav flex-column itemCard">
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn mua hàng</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn đổi trả</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn chuyển khoản</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn trả góp</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn hoàn hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-4 p-0 m-0 footer-item">
+                        <ul class="row itemCard p-0 m-0">
+                            <li class="mb-3">
+                                <h5>KẾT NỐI VỚI CHÚNG TÔI</h5>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/facebook_2.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2 ">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/instagram_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                            </li>
+                        </ul>
+                        <ul class="row itemCard p-0 m-0">
+                            <li class="mb-3 mt-3">
+                                <h5>HỖ TRỢ THANH TOÁN</h5>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- End Footer -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>

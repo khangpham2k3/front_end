@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopDuck</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../public/Font-Awesome-640/css/all.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="stylesheet" href="../../public/css/main.css">
+
+</head>
+
+<body>
+
+    <!-- icon fixed -->
+    <div class="contact-position text-light">
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 50px; right: 20px;">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="position-absolute translate-middle p-2 bg-danger rounded-circle" style="right: -6px; top: 8px;">
+          </span>
+        </div>
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 130px; right: 20px;">
+            <a href="https://zalo.me/0353605901"><i class="fa-sharp fa-solid fa-phone-volume fa-shake text-light"></i></a>
+        </div>
+        <div class="master-wrapper-page container-fluid p-0">
+        </div>
+    </div>
+    <!-- endIconfixed -->
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler icon-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="logo d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img width="249" height="26" src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" data-src="//bizweb.dktcdn.net/100/480/632/themes/900313/assets/logo.png?1712897547805" alt="Sudes Phone" class="lazyload loaded" data-was-processed="true">
+                    </a>
+                    <p class="navbar-toggler border-0 ps-2 icon-cart">
+                        <i class="fa-solid fa-cart-shopping fa-lg mt-4" style="color: #ffffff;"></i>
+                        <span class="cart-count-mobile">12</span>
+                    </p>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item ms-5">
+                            <div class="d-flex mt-1">
+                                <input class="form-control text-secondary text-opacity-50 input-search" type="search" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-5 shadow bg-body bg-secondary bg-opacity-25 rounded-1" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-light fa-location-dot fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Hệ thống cửa hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2 fs-navbar-2">7 cửa hàng</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <p class="float-start pb-5 px-1">
+                                <i class="float-start fa-solid fa-phone-volume fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Gọi mua hàng</span><br/>
+                                <span class="text-white ps-2 fs-navbar-2">1900 6750</span>
+                            </p>
+                        </li>
+                        <li class="nav-item ms-3" style="height: 50px;">
+                            <div class="float-start pb-5 px-1" style="width: 110px;">
+                                <i class="float-start fa-regular fa-user fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="text-white ps-2 pt-1 fs-navbar-1">Thông tin</span><br/>
+                                <div class="dropdown" style="margin-left: 36px;">
+                                    <span class="dropdown-toggle text-white fs-navbar-2" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Tài khoản
+                                    </span>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                        <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-2 list-group-item d-flex justify-content-between align-items-start" style="height: 50px;">
+                            <div class="ms-2 me-auto">
+                                <i class="fa-solid fa-cart-shopping fa-2xl mt-4" style="color: #ffffff;"></i>
+                                <span class="cart-count">12</span>
+                                <span class="text-white ps-2 fs-navbar-2">Giỏ hàng</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="m-0 text-white hr-line">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-mobile">
+            <!-- navbar show web  -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-collapse navbar-nav mb-2 mb-lg-0 justify-content-center">
+                        <li class="navbar-toggler nav-item border-0">
+                            <div class="d-flex mt-1 input-search-mobile">
+                                <input class="form-control text-secondary text-opacity-50" type="text" placeholder="Tìm Sản Phẩm..." aria-label="Search">
+                                <button class="btn" style="margin-left: -40px" type="submit"><i class="fa-light fa-magnifying-glass fa-lg text-secondary text-opacity-75"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="navbar-toggler nav-item mxc border-0">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle text-white fs-6" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </span>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Đăng ký</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dang sách yêu thích (0)</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">So sánh sản phẩm (0)</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">iPhone</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    iPad
+                                </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad Air</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad 10.9</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">iPad mini</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Macbook - iMac
+                                </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Pro</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Macbook Air</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Apple watch
+                                </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch Utra</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S7</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S6</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch SE</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S8</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Apple Watch S3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Airpods</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <div class="dropdown-center">
+                                <span class="text-white fs-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Phụ kiện
+                                </span>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Phụ kiện Aplle</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Cốc - Cáp Sạc</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Bao Da - Ốp Lưng</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Dán Cường Lực</a></li>
+                                    <li><a class="dropdown-item border border-top-1 border-bottom-1" href="#">Sạc Dự Phòng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Chính sách</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item mxc">
+                            <a class="nav-link text-white" aria-current="page" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- navbar show web  -->
+        </nav>
+    </header>
+    <!-- Endheader -->
+    <div class="layout-collection">
+        <section class="bread-crumb">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="home">
+                        <a href="#" title="Trang chủ"><span>Trang chủ</span></a>
+                        <span class="mr_lr mx-2"><i class="fas fa-angle-right"></i></span>
+                        <strong><span>Địa chỉ nhận hàng</span></strong>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- Main content -->
+    <main>
+        <div class="wrapper-home-page ">
+            <div class="master-wrapper-content container">
+                <div class="master-column-wrapper row pt-2">
+                    <div class="col-lg-4 ">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid p-0">
+                                <button class="d-lg-none border-0 button-navbar-mobie ms-3 py-2 fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class=" side-2 collapse navbar-collapse " id="navbarNavDropdown">
+                                    <div class="list-group listbox">
+                                        <div class="slidebar_list-tem ">
+                                            <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-user "></i> Thông tin tài khoản</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class=" active list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-location-dot"></i> Địa chỉ nhận hàng</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-sharp fa-solid fa-ballot-check"></i> Đơn đặt hàng</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class=" inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-gear"></i> Hệ thống</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-gift"></i> Điểm thưởng</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-lock"></i> Đổi mật khẩu</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-image"></i> Ảnh đại diện</a>
+                                        </div>
+                                        <div class="slidebar_list-tem">
+                                            <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i
+                                                    class="me-2 fa-solid fa-clock-rotate-left"></i> Lịch sử đánh giá sản phẩm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="center-2 col-lg-8 mt-2">
+                        <div class="page account-page address-list-page">
+                            <div class="page-body">
+                                <div class="no-data text-center text-lg-start">Không có địa chỉ</div>
+                                <div class="add-button">
+                                    <button type="button" class="button-1 add-address-button">Thêm mới</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sd-chat-box"></div>
+                <div class="chat-box_toggle"></div>
+                <section class="all_chat-box" id="contact1" style="display:none">
+                    <div class="all_items-chat-box">
+                        <a class="items-chat-icon ic_zalo" href="https://zalo.me/3937868610324741136" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="13" viewBox="0 0 36 13" fill="none"><path d="M18.6343 3.93038V3.24788H20.5901V12.8362H19.4721C19.2508 12.8367 19.0384 12.7454 18.8813 12.5825C18.7243 12.4196 18.6355 12.1984 18.6343 11.9672V11.9687C17.818 12.593 16.8322 12.9288 15.8205 12.9272C14.5565 12.9272 13.3441 12.4029 12.45 11.4695C11.5559 10.5361 11.0532 9.27 11.0525 7.94955C11.0532 6.6291 11.5559 5.36301 12.45 4.4296C13.3441 3.49619 14.5565 2.97185 15.8205 2.97185C16.8317 2.97066 17.8169 3.30644 18.6329 3.93038H18.6343ZM10.5458 0.166016V0.476932C10.5458 1.0563 10.4717 1.5295 10.1102 2.0846L10.0666 2.13617C9.94618 2.27726 9.82903 2.42139 9.71527 2.56841L3.43866 10.7978H10.5458V11.9626C10.5458 12.0775 10.5241 12.1912 10.482 12.2973C10.4398 12.4034 10.3781 12.4998 10.3003 12.5809C10.2225 12.6621 10.1301 12.7264 10.0285 12.7702C9.92686 12.814 9.81795 12.8364 9.70801 12.8362H0.5V12.2872C0.5 11.6153 0.65971 11.315 0.862977 11.0026L7.55192 2.35001H0.778767V0.166016H10.5472H10.5458ZM22.961 12.8362C22.7762 12.8362 22.5989 12.7595 22.4682 12.623C22.3375 12.4865 22.2641 12.3013 22.2641 12.1082V0.166016H24.3563V12.8362H22.961ZM30.5444 2.91118C31.1747 2.91098 31.7989 3.04048 32.3813 3.29228C32.9638 3.54408 33.493 3.91324 33.9389 4.37871C34.3848 4.84417 34.7385 5.39681 34.9799 6.00507C35.2213 6.61333 35.3456 7.2653 35.3458 7.92377C35.346 8.58223 35.222 9.23428 34.981 9.84269C34.7399 10.4511 34.3865 11.004 33.941 11.4697C33.4954 11.9355 32.9663 12.305 32.384 12.5571C31.8017 12.8093 31.1776 12.9392 30.5473 12.9394C29.2742 12.9398 28.0532 12.4119 27.1527 11.4719C26.2523 10.5318 25.7462 9.25662 25.7458 7.9268C25.7454 6.59698 26.2508 5.32146 27.1507 4.38085C28.0506 3.44024 29.2713 2.91159 30.5444 2.91118ZM15.822 10.8782C16.1956 10.8871 16.5672 10.8179 16.9149 10.6747C17.2626 10.5315 17.5794 10.3171 17.8466 10.0442C18.1139 9.77129 18.3262 9.44535 18.4712 9.08551C18.6162 8.72567 18.6909 8.3392 18.6909 7.94879C18.6909 7.55838 18.6162 7.17191 18.4712 6.81207C18.3262 6.45224 18.1139 6.12629 17.8466 5.85339C17.5794 5.58049 17.2626 5.36613 16.9149 5.2229C16.5672 5.07967 16.1956 5.01047 15.822 5.01935C15.0893 5.03677 14.3922 5.35305 13.8799 5.90053C13.3676 6.44801 13.0807 7.1832 13.0807 7.94879C13.0807 8.71438 13.3676 9.44957 13.8799 9.99705C14.3922 10.5445 15.0893 10.8608 15.822 10.8782ZM30.5444 10.8737C31.2933 10.8737 32.0116 10.5629 32.5412 10.0097C33.0708 9.45646 33.3683 8.70613 33.3683 7.92377C33.3683 7.1414 33.0708 6.39108 32.5412 5.83786C32.0116 5.28464 31.2933 4.97385 30.5444 4.97385C29.7954 4.97385 29.0771 5.28464 28.5475 5.83786C28.0179 6.39108 27.7204 7.1414 27.7204 7.92377C27.7204 8.70613 28.0179 9.45646 28.5475 10.0097C29.0771 10.5629 29.7954 10.8737 30.5444 10.8737Z" fill="#2288FF"></path></svg>                            </a>
+                        <a class="items-chat-icon ic_tel" href="tel:19006626"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6.68715 17.2624C7.88236 18.4658 9.14893 19.5533 10.4868 20.525C11.8248 21.4878 13.1627 22.2499 14.5006 22.8115C15.8474 23.3821 17.1229 23.6673 18.3271 23.6673C19.1566 23.6673 19.9236 23.5202 20.6283 23.2261C21.3329 22.9319 21.9751 22.4728 22.5549 21.8488C22.876 21.4833 23.1391 21.0866 23.3443 20.6587C23.5583 20.2308 23.6654 19.8029 23.6654 19.3751C23.6654 19.072 23.5985 18.7778 23.4647 18.4925C23.3398 18.1984 23.1257 17.9488 22.8225 17.7437L18.9291 15.0026C18.6526 14.7975 18.3895 14.6504 18.1398 14.5613C17.8989 14.4632 17.6626 14.4142 17.4307 14.4142C17.1542 14.4142 16.8776 14.49 16.6011 14.6415C16.3336 14.7931 16.0571 15.0115 15.7716 15.2967L14.8618 16.1793C14.7281 16.313 14.5675 16.3798 14.3802 16.3798C14.2821 16.3798 14.1884 16.3665 14.0992 16.3397C14.019 16.3041 13.9431 16.2729 13.8718 16.2461C13.4882 16.0411 12.9888 15.6845 12.3733 15.1764C11.7579 14.6683 11.1335 14.0978 10.5002 13.4648C9.86694 12.8319 9.29164 12.2079 8.77431 11.5928C8.2659 10.9688 7.91358 10.4652 7.71735 10.0818C7.68167 10.0105 7.65046 9.93475 7.6237 9.85452C7.59694 9.77429 7.58356 9.68515 7.58356 9.58709C7.58356 9.4088 7.646 9.25726 7.77087 9.13246L8.66728 8.20982C8.9527 7.90673 9.17123 7.62147 9.32286 7.35404C9.47449 7.08661 9.5503 6.80581 9.5503 6.51163C9.5503 6.28878 9.49679 6.057 9.38975 5.81631C9.29164 5.56671 9.14447 5.29928 8.94824 5.01402L6.25902 1.21651C6.03603 0.913418 5.77291 0.690559 5.46965 0.547929C5.16638 0.405299 4.84528 0.333984 4.50634 0.333984C3.65007 0.333984 2.84286 0.699473 2.08471 1.43045C1.47818 2.0188 1.03221 2.674 0.746787 3.39607C0.470283 4.10922 0.332031 4.86694 0.332031 5.66923C0.332031 6.87267 0.608535 8.14296 1.16154 9.48012C1.72347 10.8173 2.48162 12.15 3.43601 13.4782C4.39931 14.8064 5.48302 16.0678 6.68715 17.2624Z" fill="#339901"></path></svg>                            </a>
+                        <a class="items-chat-icon ic_mess" href="https://m.me/shopdunk.store" target="_blank"> <img src="/images/uploaded-source/icon/ic_messenger.png" width="28" height="28"> </a>
+                    </div>
+                </section>
+                <a id="backTop" class="btn btn-back-top bg-teal"></a>
+                <div class="hidden-lg hidden-md bottom" style="display:none">
+                    <ul>
+                        <li>
+                            <a href="/"> <img src="/images/uploaded-source/icon/IC_home.png" width="22" height="22"> <span>Trang chủ</span> </a>
+                        </li>
+                        <li>
+                            <a href="/flash-sale" id="procat"> <img src="/images/uploaded-source/icon/bottom-flash-sale.png" width="22" height="22"> <span>Flash Sale</span> </a>
+                        </li>
+                        <li>
+                            <a alt="Hệ thống cửa hàng" href="/find-store"> <img src="/images/uploaded-source/icon/Shop.png" width="22" height="22"> <span>Cửa hàng</span> </a>
+                        </li>
+                        <li>
+                            <a href="/tin-tuc"> <img style="height:22px" src="/images/uploaded-source/icon/News.png" width="22" height="22"> <span>Tin tức</span> </a>
+                        </li>
+                        <li>
+                            <a href="/care"> <img style="height:22px" src="/images/uploaded-source/icon/fixed.png" width="22" height="22"> <span>Bảo hành<br>Apple</span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End main content -->
+    <!-- Form info -->
+    <article>
+        <div class="pt-3 mb-2">
+            <div class=" col-12 text-center py-3" style="background: #F2F2F2; color: #515154;">
+                <h3>Đăng kí nhận tin từ ShopDuck</h3>
+                <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                <div class="input-group justify-content-center">
+                    <input type="text" class=" rounded-start-5 px-3 border-0 col-md-6" placeholder="Email của bạn">
+                    <button class="input-group-text btn text-bg-primary rounded-end-5 px-4">Đăng kí</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Form info -->
+    <!-- Footer -->
+    <div class="bg-dark">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-12 footer-item">
+                        <h5 class="mb-3">Logo</h5>
+                        <ul class="nav flex-column ">
+                            <li class="nav-item mb-2">Hệ thống cửa hàng Sudes Phone chuyên bán lẻ điện thoại, máy tính laptop, smartwatch, smarthome, phụ kiện chính hãng - Giá tốt, giao miễn phí.</li>
+                            <li class="nav-item mb-2"><b>Địa chỉ:</b> 70 Lữ Gia, Phường 15, Quận 11, Tp.HCM</li>
+                            <li class="nav-item mb-2"><b>Điện thoại:</b> 1900 6750</li>
+                            <li class="nav-item mb-2"><b>Email:</b> support@sapo.vn</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                        <h5 class="mb-3">CHÍNH SÁCH</h5>
+                        <ul class="nav flex-column itemCard">
+                            <li class="nav-item mb-2 text-light"><a href="">Chính sách mua hàng</a></li>
+                            <li class="nav-item mb-2"><a href="">chính sách đổi trả</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách vận chuyển</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách bảo mật</a></li>
+                            <li class="nav-item mb-2"><a href="">Chính sách cam kết</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-sm-12 col-md-4 footer-item">
+                        <h5 class="mb-3">HƯỚNG DẪN</h5>
+                        <ul class="nav flex-column itemCard">
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn mua hàng</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn đổi trả</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn chuyển khoản</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn trả góp</a></li>
+                            <li class="nav-item mb-2"><a href="">Hướng dẫn hoàn hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-4 p-0 m-0 footer-item">
+                        <ul class="row itemCard p-0 m-0">
+                            <li class="mb-3">
+                                <h5>KẾT NỐI VỚI CHÚNG TÔI</h5>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/facebook_2.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2 ">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/instagram_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2  col-lg-2  col-sm-2 col-2">
+                                <a href=""><img src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/lazada.svg?1712897547805" alt=""></a>
+                            </li>
+
+                        </ul>
+                        <ul class="row itemCard p-0 m-0">
+                            <li class="mb-3 mt-3">
+                                <h5>HỖ TRỢ THANH TOÁN</h5>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2 ">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                            <li class="nav-item mb-2 col-lg-2 col-sm-2 col-2">
+                                <a href=""><img class="border" src="https://bizweb.dktcdn.net/100/480/632/themes/900313/assets/payment_1.svg?1712897547805" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+</body>
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js "></script>
+
+</html>

@@ -1,0 +1,2784 @@
+[
+    {
+        "id": 1,
+        "name": "IPhone 15",
+        "brand": "Apple",
+        "model": "IPhone 15 series",
+        "price": 21900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_01.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "IPhone 15 Plus",
+        "brand": "Apple",
+        "model": "IPhone 15 series",
+        "price": 27900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_02.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "IPhone 15 Pro",
+        "brand": "Apple",
+        "model": "IPhone 15 series",
+        "price": 27900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_03.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "IPhone 15 Pro Max",
+        "brand": "Apple",
+        "model": "IPhone 15 series",
+        "price": 5900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_04.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "IPhone 14",
+        "brand": "Apple",
+        "model": "IPhone 14 series",
+        "price": 22900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_05.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "IPhone 14 Plus",
+        "brand": "Apple",
+        "model": "IPhone 14 series",
+        "price": 21900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_06.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "IPhone 14 Pro",
+        "brand": "Apple",
+        "model": "IPhone 14 series",
+        "price": 18900000,
+        "discount": 23000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_07.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "IPhone 14 Pro Max",
+        "brand": "Apple",
+        "model": "IPhone 14 series",
+        "price": 21900000,
+        "discount": 25000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_08.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "IPhone 13",
+        "brand": "Apple",
+        "model": "IPhone 13 series",
+        "price": 15900000,
+        "discount": 25000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_09.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "IPhone 13 Plus",
+        "brand": "Apple",
+        "model": "IPhone 13 series",
+        "price": 13900000,
+        "discount": 15000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_10.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "IPhone 13 Pro",
+        "brand": "Apple",
+        "model": "IPhone 13 series",
+        "price": 1900000,
+        "discount": 25000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_11.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "IPhone 13 Pro Max",
+        "brand": "Apple",
+        "model": "IPhone 13 series",
+        "price": 28900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_12.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "IPhone 12",
+        "brand": "Apple",
+        "model": "IPhone 12 series",
+        "price": 22900000,
+        "discount": 25000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_13.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "IPhone 12 Plus",
+        "brand": "Apple",
+        "model": "IPhone 12 series",
+        "price": 15900000,
+        "discount": 25000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_14.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "IPhone 12 Pro",
+        "brand": "Apple",
+        "model": "IPhone 12 series",
+        "price": 14900000,
+        "discount": 25900000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_15.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "IPhone 12 Pro Max",
+        "brand": "Apple",
+        "model": "IPhone 12 series",
+        "price": 22900000,
+        "discount": 25000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_16.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "IPhone 11",
+        "brand": "Apple",
+        "model": "IPhone 11 series",
+        "price": 15900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_17.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "IPhone 11 Plus",
+        "brand": "Apple",
+        "model": "IPhone 11 series",
+        "price": 13900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_18.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "IPhone 11 Pro",
+        "brand": "Apple",
+        "model": "IPhone 11 series",
+        "price": 11900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_19.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "IPhone 11 Pro Max",
+        "brand": "Apple",
+        "model": "IPhone 11 series",
+        "price": 13800000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_20.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "IPhone SE",
+        "brand": "Apple",
+        "model": "IPhone SE series",
+        "price": 14500000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_21.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "IPhone SE Plus",
+        "brand": "Apple",
+        "model": "IPhone SE series",
+        "price": 12300000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_22.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "IPhone SE Pro",
+        "brand": "Apple",
+        "model": "IPhone SE series",
+        "price": 14300000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_23.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "IPhone SE Pro Max",
+        "brand": "Apple",
+        "model": "IPhone SE series",
+        "price": 18900000,
+        "discount": 35000000,
+        "category": "iphone",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "iphone_24.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "MacBook Pro M2",
+        "brand": "Apple",
+        "model": "MacBook Pro",
+        "price": 16500000,
+        "discount": 25000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_01.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "MacBook Pro M3",
+        "brand": "Apple",
+        "model": "MacBook Pro",
+        "price": 12100000,
+        "discount": 23000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_02.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "MacPro Air Pro",
+        "brand": "Apple",
+        "model": "MacBook Pro",
+        "price": 22902000,
+        "discount": 32000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_03.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "MacBook Pro 2020",
+        "brand": "Apple",
+        "model": "MacBook Pro",
+        "price": 21900000,
+        "discount": 25000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_04.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Mac Pro 14",
+        "brand": "Apple",
+        "model": "Mac Pro",
+        "price": 29900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_05.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Mac 14 Plus",
+        "brand": "Apple",
+        "model": "Mac Pro",
+        "price": 28900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_06.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Mac 14 Pro",
+        "brand": "Apple",
+        "model": "Mac Pro",
+        "price": 23900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_07.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Mac 14 Pro Max",
+        "brand": "Apple",
+        "model": "Mac Pro",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_08.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "MacBook Air 13",
+        "brand": "Apple",
+        "model": "MacBook Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_09.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "MacBook Air 2021",
+        "brand": "Apple",
+        "model": "MacBook Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_10.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "MacBook Air Pro",
+        "brand": "Apple",
+        "model": "MacBook Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_11.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "MacBook Air Pro Max",
+        "brand": "Apple",
+        "model": "MacBook Pro M3",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_12.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Mini Mac 2023",
+        "brand": "Apple",
+        "model": "Mini Mac",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_13.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Mini Mac 2023 Plus",
+        "brand": "Apple",
+        "model": "Mini Mac",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_14.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Mini Mac 2023 Pro",
+        "brand": "Apple",
+        "model": "Mini Mac",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_15.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Mini Mac 2023 Pro Max",
+        "brand": "Apple",
+        "model": "Mini Mac",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "mac",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "mac_16.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "IPad 15",
+        "brand": "Apple",
+        "model": " iPad Pro M1 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_01.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "IPad 15 Plus",
+        "brand": "Apple",
+        "model": " iPad Pro M1 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_02.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "IPad 15 Pro",
+        "brand": "Apple",
+        "model": " iPad Pro M1 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_03.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "IPad 15 Pro Max",
+        "brand": "Apple",
+        "model": " iPad Pro M1 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_04.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "IPad 14",
+        "brand": "Apple",
+        "model": " iPad Pro M2 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_05.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "IPad 14 Plus",
+        "brand": "Apple",
+        "model": " iPad Pro M2 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_06.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "IPad 14 Pro",
+        "brand": "Apple",
+        "model": " iPad Pro M2 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_07.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "IPad 14 Pro Max",
+        "brand": "Apple",
+        "model": " iPad Pro M2 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_08.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "IPad 13",
+        "brand": "Apple",
+        "model": "Ipad Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_09.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "IPad 13 Plus",
+        "brand": "Apple",
+        "model": "Ipad Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_10.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "IPad 13 Pro",
+        "brand": "Apple",
+        "model": "Ipad Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_11.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "IPad 13 Pro Max",
+        "brand": "Apple",
+        "model": "Ipad Air",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_12.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "IPad 12",
+        "brand": "Apple",
+        "model": "Ipad Mini",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_13.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "IPad 12 Plus",
+        "brand": "Apple",
+        "model": "Ipad Mini",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_14.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "IPad 12 Pro",
+        "brand": "Apple",
+        "model": "Ipad Mini",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_15.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "IPad 12 Pro Max",
+        "brand": "Apple",
+        "model": "Ipad Mini",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "ipad",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "ipad_16.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Apple Watch 15",
+        "brand": "Apple",
+        "model": " Apple Watch Ultra 2 ",
+        "price": 6500000,
+        "discount": 7500000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_01.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Apple Watch 15 Plus",
+        "brand": "Apple",
+        "model": " Apple Watch Ultra 2 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_02.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Apple Watch 15 Pro",
+        "brand": "Apple",
+        "model": " Apple Watch Ultra 2 ",
+        "price": 22900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_03.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Apple Watch 15 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Ultra 2 ",
+        "price": 13900000,
+        "discount": 15000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_04.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Apple Watch 14",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 18900000,
+        "discount": 19200000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_05.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Apple Watch 14 Plus",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 9900000,
+        "discount": 11000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_06.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Apple Watch 14 Pro",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 5900000,
+        "discount": 6000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_07.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Apple Watch 14 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 4900000,
+        "discount": 5500000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_08.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Apple Watch 13",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_09.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Apple Watch 13 Plus",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 9920000,
+        "discount": 15000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_10.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Apple Watch 13 Pro",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_11.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Apple Watch 13 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 9 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_12.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Apple Watch 12",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_13.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Apple Watch 12 Plus",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_14.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Apple Watch 12 Pro",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_15.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_16.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_17.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 12900000,
+        "discount": 13000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_18.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 9900000,
+        "discount": 15000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_19.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 4900000,
+        "discount": 55000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_20.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 8",
+        "price": 6900000,
+        "discount": 8200000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_21.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 7 ",
+        "price": 12900000,
+        "discount": 13000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_22.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 7 ",
+        "price": 1900000,
+        "discount": 2000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_23.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 7 ",
+        "price": 25900000,
+        "discount": 35000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_24.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Apple Watch 12 Pro Max",
+        "brand": "Apple",
+        "model": " Apple Watch Series 7 ",
+        "price": 15900000,
+        "discount": 15000000,
+        "category": "watch",
+        "description": "Chiếc điện thoại di động mới nhất từ Apple với nhiều tính năng độc đáo.",
+        "feedback": 1342,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "watch_25.png",
+        "image_urls": [
+            "iphone_01.png",
+            "iphone_02.png",
+            "iphone_03.png",
+            "iphone_04.png"
+        ]
+    },
+    {
+        "id": 82,
+        "name": " Loa Marshall Stanmore II Bluetooth",
+        "brand": "Apple",
+        "model": "Marshall",
+        "price": 6900000,
+        "discount": 11900000,
+        "category": "amthanh",
+        "description": "Loa  Loa Marshall Stanmore II Bluetooth có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1252,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_01.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Loa JBL Flip 6",
+        "brand": "JBL",
+        "model": "JBL",
+        "price": 2500000,
+        "discount": 2900000,
+        "category": "amthanh",
+        "description": "Loa  Loa JBL có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1252,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_02.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Loa Harman Kardon Onyx Studio 8",
+        "brand": "Harman Kardon",
+        "model": "Harman Kardon",
+        "price": 5800000,
+        "discount": 6900000,
+        "category": "amthanh",
+        "description": "Loa Harman Kardon HK GOPLAY MINI có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1870,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_03.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 85,
+        "name": " Loa Marshall Acton II Bluetooth",
+        "brand": "Marshall",
+        "model": "Marshall",
+        "price": 5800000,
+        "discount": 6900000,
+        "category": "amthanh",
+        "description": "Loa  Loa Marshall Acton II Bluetooth có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_04.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Loa Sony SRS-XE200",
+        "brand": "Sony",
+        "model": "Sony",
+        "price": 1800000,
+        "discount": 2900000,
+        "category": "amthanh",
+        "description": "Loa Sony SRS-XE200 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_05.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "AirPods Pro 2 (USB-C) 2023",
+        "brand": "AirPods",
+        "model": "AirPods",
+        "price": 2800000,
+        "discount": 3100000,
+        "category": "amthanh",
+        "description": "Tai Nghe Marshall Minor III 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 9170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_06.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Loa Harman Kardon Soundsticks 4",
+        "brand": "Harman",
+        "model": "Harman",
+        "price": 7800000,
+        "discount": 8100000,
+        "category": "amthanh",
+        "description": "Loa Harman Kardon Soundsticks 4 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 9170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_07.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Loa Harman Kardon Soundsticks 4",
+        "brand": "Harman",
+        "model": "Harman",
+        "price": 7990000,
+        "discount": 8990000,
+        "category": "amthanh",
+        "description": "Loa Harman Kardon Soundsticks 4 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 9170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_08.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "AirPods Pro 3 (USB-C) 2023",
+        "brand": "AirPods",
+        "model": "AirPods",
+        "price": 3990000,
+        "discount": 4990000,
+        "category": "amthanh",
+        "description": "AirPods Pro 3 (USB-C) 2023 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_09.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Loa JBL Xtreme 3",
+        "brand": "JBL",
+        "model": "JBL",
+        "price": 3990000,
+        "discount": 4990000,
+        "category": "amthanh",
+        "description": "Loa JBL Xtreme 3 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_10.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Loa JBL CHARGE 5",
+        "brand": "JBL",
+        "model": "JBL",
+        "price": 5990000,
+        "discount": 5990000,
+        "category": "amthanh",
+        "description": "Loa JBL Xtreme 3 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_02.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Loa JBL PARTYBOXGO Black",
+        "brand": "JBL",
+        "model": "JBL",
+        "price": 7990000,
+        "discount": 8290000,
+        "category": "amthanh",
+        "description": "Loa JBL PARTYBOXGO Black có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 3020,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_11.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Loa JBL PartyBox 100",
+        "brand": "JBL",
+        "model": "JBL",
+        "price": 8920000,
+        "discount": 9390000,
+        "category": "amthanh",
+        "description": "Loa JBL PARTYBOXGO Black có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 3020,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "sound_12.png",
+        "image_urls": [
+            "sound_01.png",
+            "sound_02.png",
+            "sound_03.png",
+            "sound_04.png"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Cường lực Mipow Kingbull H",
+        "brand": "Mipow Kingbull",
+        "model": "Mipow Kingbull",
+        "price": 350000,
+        "discount": 360000,
+        "category": "phukien",
+        "description": "Cường lực Mipow Kingbull H có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1252,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_01.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Cường lực chống nhìn trộm MiPow Kingbull",
+        "brand": "Mipow Kingbull",
+        "model": "Mipow Kingbull",
+        "price": 250000,
+        "discount": 290000,
+        "category": "phukien",
+        "description": "Cường lực chống nhìn trộm MiPow Kingbull có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1252,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_02.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Cường lực ZAGG Glass Plus Edge",
+        "brand": "ZAGG",
+        "model": "ZAGG",
+        "price": 580000,
+        "discount": 690000,
+        "category": "phukien",
+        "description": "ZAGG HK GOPLAY MINI có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1870,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_03.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Ốp Lưng Silicon MagSafe",
+        "brand": "Silicon MagSafe",
+        "model": "Silicon MagSafe",
+        "price": 580000,
+        "discount": 690000,
+        "category": "phukien",
+        "description": "Loa Ốp Lưng Silicon MagSafe có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_04.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Ốp Lưng Silicon MagSafe 2",
+        "brand": "Silicon MagSafe",
+        "model": "Silicon MagSafe",
+        "price": 180000,
+        "discount": 290000,
+        "category": "phukien",
+        "description": "Ốp Lưng Silicon MagSafe 2 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_05.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Ốp Lưng Silicon MagSafe 4",
+        "brand": "Silicon MagSafe",
+        "model": "Silicon MagSafe",
+        "price": 280000,
+        "discount": 310000,
+        "category": "phukien",
+        "description": "Tai Nghe Marshall Minor III 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 9170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_06.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Ốp Lưng Silicon MagSafe Black",
+        "brand": "Silicon MagSafe",
+        "model": "Silicon MagSafe",
+        "price": 780000,
+        "discount": 810000,
+        "category": "phukien",
+        "description": "Loa Harman Kardon Soundsticks 4 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_07.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Silicon MagSafe Red",
+        "brand": "Silicon MagSafe",
+        "model": "Silicon MagSafe",
+        "price": 799000,
+        "discount": 899000,
+        "category": "phukien",
+        "description": "Loa Harman Kardon Soundsticks 4 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 9170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_08.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Ốp Lưng Silicon MagSafe Orange",
+        "brand": "Silicon MagSafe",
+        "model": "Silicon MagSafe",
+        "price": 390000,
+        "discount": 499000,
+        "category": "phukien",
+        "description": "AirPods Pro 3 (USB-C) 2023 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 1170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_09.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Ốp UNIQ Coehl Magnetic Charging",
+        "brand": "UNIQ Coehl",
+        "model": "UNIQ Coehl",
+        "price": 399000,
+        "discount": 499000,
+        "category": "phukien",
+        "description": "UNIQ Coehl Magnetic có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_10.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Ốp UNIQ Coehl Magnetic Charging",
+        "brand": "UNIQ Coehl",
+        "model": "UNIQ Coehl",
+        "price": 599000,
+        "discount": 599000,
+        "category": "phukien",
+        "description": "Loa JBL Xtreme 3 2023 có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 170,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_02.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Ốp UNIQ Coehl Magnetic Black",
+        "brand": "UNIQ Coehl",
+        "model": "UNIQ Coehl",
+        "price": 799000,
+        "discount": 829000,
+        "category": "phukien",
+        "description": "Loa JBL PARTYBOXGO Black có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 3020,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_11.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Ốp lưng ZAGG trong suốt",
+        "brand": "ZAGG",
+        "model": "ZAGG",
+        "price": 892000,
+        "discount": 939000,
+        "category": "phukien",
+        "description": "Loa JBL PARTYBOXGO Black có thiết kế tinh xảo, làm từ chất liệu sợi Fabric, thép không gỉ bền bỉ, bảo vệ tốt linh kiện bên trong và nâng cao tính thẩm mỹ cho sản phẩm.",
+        "feedback": 3020,
+        "colors": [
+            "Đen",
+            "Bạc",
+            "Vàng"
+        ],
+        "storage_options": [
+            "128GB", "256GB", "512GB", "1T"
+        ],
+        "image_full": "phukien_12.png",
+        "image_urls": [
+            "phukien_01.png",
+            "phukien_02.png",
+            "phukien_03.png",
+            "phukien_04.png"
+        ]
+    }
+]
